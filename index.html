@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -14,18 +17,33 @@
 </head>
 
 <body>
-<section class="img">
-  <img src="./images/logo.svg" alt="">
-  <img src="./images/icon-document.svg" alt="">
-  <img src="./images/icon-folder.svg" alt="">
-  <img src="./images/icon-upload.svg" alt="">
-</section>
-  <section class="box">
-    <p id="one">185 <span id="left">GB Left </span></p>
-    <h1>You’ve used 815 GB of your storage</h1>
-    <p id="zero">0 GB</p>
-    <p id="thousand">1000 GB</p>
-  </section>
+  <main>
+    <figure class="img">
+      <img id="logo" src="./images/logo.svg" alt="fylo logo">
+      <div class="icon">
+        <img id="document" src="./images/icon-document.svg" alt="document icon">
+        <img id="folder" src="./images/icon-folder.svg" alt="folder icon">
+        <img id="upload" src="./images/icon-upload.svg" alt="upload icon">
+    </figure>
+    </div>
+
+    <!-- <figure class="background">
+      <img src="./images/bg-desktop.png" alt="">
+    </figure> -->
+
+    <section class="box">
+      <p id="one">185 <span id="left">GB Left </span></p>
+      <h1>You’ve used 815 GB of your storage</h1>
+      <div class="slidecontainer">
+        <p>Custom range slider:</p>
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <div class="gigabites">
+        <p id="zero">0 GB</p>
+        <p id="thousand">1000 GB</p>
+      </div>
+    </section>
+  </main>
 
   <footer class="attribution footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
