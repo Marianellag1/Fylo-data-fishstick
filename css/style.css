@@ -36,6 +36,7 @@ body {
     align-items: center;
     background-color: var(--very);
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
     /* background: url(../images/bg-desktop.png) no-repeat; */
 }
 
@@ -52,6 +53,63 @@ main {
     border-bottom-left-radius: 5px;
     margin-right: 2rem;
     z-index: 1;
+}
+
+.box h1,
+.gigabites p {
+    color: var(--pale);
+}
+
+.box h1 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+/* .arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 30px;
+    bottom: -15px;
+    border-top: 15px solid black;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: none;
+  } */
+
+.square {
+    background-color: var(--pale);
+    color: var(--very);
+    padding: 20px;
+    position: relative;
+}
+
+.square.arrow-bottom {
+    /* margin-top: 40px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.square.arrow-bottom:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    border-top: 15px solid var(--pale);
+    /* border-right: 15px solid transparent; */
+    border-left: 15px solid transparent;
+    /* border-bottom: none; */
+}
+
+#fifteen,
+#zero,
+#thousand {
+    font-weight: 700;
+}
+
+#thousand {
+    text-align: end;
 }
 
 #document,
