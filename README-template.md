@@ -90,10 +90,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Google](https://www.google.com) - Your friend <3
+- [Code Convoy](https://codeconvey.com/css-message-box-with-arrow/) - Awesome sight which helped with arrow on the bottom of message. 
+- [W3 School Sliders](https://www.w3schools.com/howto/howto_js_rangeslider.asp) - Took a while but found sliders through w3schools. I thought it was only through javascript, but really happy to expand my css knowledge!
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
