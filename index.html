@@ -17,38 +17,48 @@
 </head>
 
 <body>
-  <main>
-    <figure class="img">
-      <img id="logo" src="./images/logo.svg" alt="fylo logo">
-      <div class="icon">
-        <img id="document" src="./images/icon-document.svg" alt="document icon">
-        <img id="folder" src="./images/icon-folder.svg" alt="folder icon">
-        <img id="upload" src="./images/icon-upload.svg" alt="upload icon">
-      </div>
-    </figure>
+  <div class="wrapper">
+    <div class="fylo-box first">
+      <figure class="img">
+        <img id="logo" src="./images/logo.svg" alt="fylo logo">
+      </figure>
 
-    <section class="box">
-      <div class="square arrow-bottom">
-        <p id="one">185 <span id="left">GB Left </span></p>
+      <div class="icons">
+        <img class="document square" src="./images/icon-document.svg" alt="document icon">
+        <img class="folder square" src="./images/icon-folder.svg" alt="folder icon">
+        <img class="upload square" src="./images/icon-upload.svg" alt="upload icon">
       </div>
-      <h1>You’ve used <span id="fifteen">815 GB</span> of your storage</h1>
-      <div class="slidecontainer">
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div>
+    
+    <div class="second-box">
+      <div class="arrow-button">
+        <p id="one"><span id="left">185</span>GB Left </p>
       </div>
-      <div class="gigabites">
-        <p id="zero">0 GB</p>
-        <p id="thousand">1000 GB</p>
-      </div>
-    </section>
 
-    <figure class="background">
-      <img src="./images/bg-desktop.png" alt="">
-    </figure>
-  </main>
+      <div class="together">
+        <h1>You’ve used <span id="fifteen">815 GB</span> of your storage</h1>
 
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <div class="gigabites">
+          <h2>0 GB</h2>
+          <h3>1000 GB</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <footer class="attribution footer">
+
+  <figure class="background">
+    <img src="./images/bg-desktop.png" alt="">
+  </figure>
+  <div class="frontendmentor">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/Marianellag1" target="_blank">Marianella</a>.
+  </div>
   </footer>
 
 </body>
